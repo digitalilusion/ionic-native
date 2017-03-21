@@ -95,6 +95,7 @@ import { MusicControls } from './plugins/music-controls';
 import { Network } from './plugins/network';
 import { NFC } from './plugins/nfc';
 import { OneSignal } from './plugins/onesignal';
+import { Outbarriers } from './plugins/outbarriers';
 import { PhotoViewer } from './plugins/photo-viewer';
 import { ScreenOrientation } from './plugins/screen-orientation';
 import { PayPal } from './plugins/pay-pal';
@@ -228,6 +229,7 @@ export * from './plugins/navigationbar';
 export * from './plugins/network';
 export * from './plugins/nfc';
 export * from './plugins/onesignal';
+export * from './plugins/outbarriers';
 export * from './plugins/pay-pal';
 export * from './plugins/photo-library';
 export * from './plugins/photo-viewer';
@@ -366,6 +368,7 @@ window['IonicNative'] = {
   Printer,
   Push,
   OneSignal,
+  Outbarriers,
   PhotoViewer,
   ScreenOrientation,
   PinDialog,
